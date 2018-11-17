@@ -6,7 +6,7 @@ CPPFLAGS = -Wall -pedantic-errors -std=c++14 -MMD -MP
 CPPFLAGS += $(DEBUG)
 LIBS = $(wildcard *.h)
 DEPS := $(OBJS:.o=.d)
-EXE = zad2
+EXE = zadanie
 
 
 all: $(SRC) $(EXE)
